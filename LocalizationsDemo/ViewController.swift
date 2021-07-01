@@ -36,6 +36,7 @@ extension ViewController: UINavigationControllerDelegate, UIImagePickerControlle
         if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             imageView.contentMode = .scaleAspectFit
             imageView.image = pickedImage
+            self.title = NSLocalizedString("选好了", comment: "")
         }
     }
 

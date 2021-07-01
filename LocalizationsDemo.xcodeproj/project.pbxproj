@@ -14,6 +14,7 @@
 		08AC24CD268D6D3C00425EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24CC268D6D3C00425EEC /* Assets.xcassets */; };
 		08AC24D0268D6D3C00425EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24CE268D6D3C00425EEC /* LaunchScreen.storyboard */; };
 		08AC24D9268D6E5400425EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24DB268D6E5400425EEC /* InfoPlist.strings */; };
+		08AC24E5268D8FA700425EEC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24E7268D8FA700425EEC /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		08AC24DC268D6E5A00425EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08AC24E0268D6FC800425EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		08AC24E2268D70D800425EEC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		08AC24E6268D8FA700425EEC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		08AC24E8268D8FAC00425EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 				08AC24CE268D6D3C00425EEC /* LaunchScreen.storyboard */,
 				08AC24D1268D6D3C00425EEC /* Info.plist */,
 				08AC24DB268D6E5400425EEC /* InfoPlist.strings */,
+				08AC24E7268D8FA700425EEC /* Localizable.strings */,
 			);
 			path = LocalizationsDemo;
 			sourceTree = "<group>";
@@ -131,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AC24E5268D8FA700425EEC /* Localizable.strings in Resources */,
 				08AC24D0268D6D3C00425EEC /* LaunchScreen.storyboard in Resources */,
 				08AC24D9268D6E5400425EEC /* InfoPlist.strings in Resources */,
 				08AC24CD268D6D3C00425EEC /* Assets.xcassets in Resources */,
@@ -179,6 +184,15 @@
 				08AC24DC268D6E5A00425EEC /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08AC24E7268D8FA700425EEC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AC24E6268D8FA700425EEC /* zh-Hans */,
+				08AC24E8268D8FAC00425EEC /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
