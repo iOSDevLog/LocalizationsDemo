@@ -20,3 +20,13 @@ index 99a0866..644281e 100644
 ```
 
 ![developmentRegion](Screenshots/developmentRegion.png)
+
+## App Name
+
+`InfoPlist.strings`
+
+![InfoPlist.strings](Screenshots/InfoPlist.strings.png)
+
+```c
+"CFBundleName" = "本地化";
+```
