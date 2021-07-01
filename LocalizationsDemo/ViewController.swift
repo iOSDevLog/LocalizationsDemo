@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        imageView.contentMode = .scaleAspectFit
+        imageView.image = UIImage(named: "Language")
     }
 
     @IBAction func chooseImage(_ sender: UIButton) {
@@ -34,7 +36,6 @@ extension ViewController: UINavigationControllerDelegate, UIImagePickerControlle
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
         dismiss(animated: true, completion: nil)
         if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            imageView.contentMode = .scaleAspectFit
             imageView.image = pickedImage
             self.title = NSLocalizedString("选好了", comment: "")
         }

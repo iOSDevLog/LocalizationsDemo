@@ -1,6 +1,11 @@
 # Localizations Demo
 ---
 
+## Screenshots
+
+![Chinese](Screenshots/Chinese.png)
+![English](Screenshots/English.png)
+
 ## Development Language
 
 ```diff
@@ -30,3 +35,15 @@ index 99a0866..644281e 100644
 ```c
 "CFBundleName" = "本地化";
 ```
+
+## String
+
+`Localizable.strings`
+
+```c
+"选好了" = "Done";
+```
+
+## Image
+
+![Assets.xcassets](Screenshots/Assets.xcassets.png)
