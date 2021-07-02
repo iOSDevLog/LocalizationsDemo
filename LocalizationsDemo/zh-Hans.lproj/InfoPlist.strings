@@ -8,3 +8,4 @@
 "CFBundleName" = "本地化";
 "NSCameraUsageDescription" = "此应用需要访问照相机。";
 "NSPhotoLibraryUsageDescription" = "此应用需要访问照片库。";
+"UILaunchStoryboardName" = "LaunchScreen-zh-Hans";

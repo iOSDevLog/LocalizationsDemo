@@ -8,3 +8,4 @@
 "CFBundleName" = "Localizations";
 "NSCameraUsageDescription" = "This app requires access to the camera.";
 "NSPhotoLibraryUsageDescription" = "This app requires access to the photo library.";
+"UILaunchStoryboardName" = "LaunchScreen-English";

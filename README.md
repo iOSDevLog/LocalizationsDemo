@@ -47,3 +47,21 @@ index 99a0866..644281e 100644
 ## Image
 
 ![Assets.xcassets](Screenshots/Assets.xcassets.png)
+
+## Lunch Screen
+
+`zh-Hans.lproj/InfoPlist.strings`
+
+```c
+"UILaunchStoryboardName" = "LaunchScreen-zh-Hans";
+```
+
+![LaunchScreen-zh-Hans](Screenshots/LaunchScreen-zh-Hans.png)
+
+`en.lproj/InfoPlist.strings`
+
+```c
+"UILaunchStoryboardName" = "LaunchScreen-English";
+```
+
+![LaunchScreen-eng](Screenshots/LaunchScreen-en.png)

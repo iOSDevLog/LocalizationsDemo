@@ -12,9 +12,10 @@
 		08AC24C8268D6D3800425EEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC24C7268D6D3800425EEC /* ViewController.swift */; };
 		08AC24CB268D6D3800425EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24C9268D6D3800425EEC /* Main.storyboard */; };
 		08AC24CD268D6D3C00425EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24CC268D6D3C00425EEC /* Assets.xcassets */; };
-		08AC24D0268D6D3C00425EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24CE268D6D3C00425EEC /* LaunchScreen.storyboard */; };
 		08AC24D9268D6E5400425EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24DB268D6E5400425EEC /* InfoPlist.strings */; };
 		08AC24E5268D8FA700425EEC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08AC24E7268D8FA700425EEC /* Localizable.strings */; };
+		08AC2502268EB98A00425EEC /* LaunchScreen-zh-Hans.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AC2501268EB98A00425EEC /* LaunchScreen-zh-Hans.storyboard */; };
+		08AC2504268EBA1800425EEC /* LaunchScreen-en.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AC2503268EBA1800425EEC /* LaunchScreen-en.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +25,6 @@
 		08AC24C7268D6D3800425EEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08AC24CA268D6D3800425EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08AC24CC268D6D3C00425EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		08AC24CF268D6D3C00425EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08AC24D1268D6D3C00425EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08AC24DA268D6E5400425EEC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		08AC24DC268D6E5A00425EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -32,6 +32,8 @@
 		08AC24E2268D70D800425EEC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		08AC24E6268D8FA700425EEC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		08AC24E8268D8FAC00425EEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08AC2501268EB98A00425EEC /* LaunchScreen-zh-Hans.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-zh-Hans.storyboard"; sourceTree = "<group>"; };
+		08AC2503268EBA1800425EEC /* LaunchScreen-en.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-en.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +71,8 @@
 				08AC24C7268D6D3800425EEC /* ViewController.swift */,
 				08AC24C9268D6D3800425EEC /* Main.storyboard */,
 				08AC24CC268D6D3C00425EEC /* Assets.xcassets */,
-				08AC24CE268D6D3C00425EEC /* LaunchScreen.storyboard */,
+				08AC2501268EB98A00425EEC /* LaunchScreen-zh-Hans.storyboard */,
+				08AC2503268EBA1800425EEC /* LaunchScreen-en.storyboard */,
 				08AC24D1268D6D3C00425EEC /* Info.plist */,
 				08AC24DB268D6E5400425EEC /* InfoPlist.strings */,
 				08AC24E7268D8FA700425EEC /* Localizable.strings */,
@@ -136,9 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				08AC24E5268D8FA700425EEC /* Localizable.strings in Resources */,
-				08AC24D0268D6D3C00425EEC /* LaunchScreen.storyboard in Resources */,
+				08AC2502268EB98A00425EEC /* LaunchScreen-zh-Hans.storyboard in Resources */,
 				08AC24D9268D6E5400425EEC /* InfoPlist.strings in Resources */,
 				08AC24CD268D6D3C00425EEC /* Assets.xcassets in Resources */,
+				08AC2504268EBA1800425EEC /* LaunchScreen-en.storyboard in Resources */,
 				08AC24CB268D6D3800425EEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,14 +171,6 @@
 				08AC24E2268D70D800425EEC /* zh-Hans */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		08AC24CE268D6D3C00425EEC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08AC24CF268D6D3C00425EEC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		08AC24DB268D6E5400425EEC /* InfoPlist.strings */ = {
@@ -320,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FYLV37LFT2;
 				INFOPLIST_FILE = LocalizationsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -339,7 +335,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FYLV37LFT2;
 				INFOPLIST_FILE = LocalizationsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
